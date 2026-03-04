@@ -9,6 +9,10 @@ public class Main {
 
         System.out.println(point1.toString());
         System.out.println(point1.toSvg());
+        Point p1 = new Point(1, 2);
+        Point p2 = new Point(3, 4);
+        Segment segment= new Segment(p1, p2);
+        System.out.println(segment);
 
 
     }
