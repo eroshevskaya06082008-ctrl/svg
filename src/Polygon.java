@@ -6,6 +6,9 @@ public class Polygon {
             this.points[i] = new Point(points[i]);
         }
     }
+    public Polygon(Polygon other) {
+        this(other.points);
+    }
     public String toString(){
         StringBuilder sb = new StringBuilder("Polygon points:");
         for(Point point : points) {

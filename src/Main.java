@@ -13,6 +13,9 @@ public class Main {
         Point p2 = new Point(3, 4);
         Segment segment= new Segment(p1, p2);
         System.out.println(segment);
+        BoundingBox bd = new BoundingBox(1, 0, 5, 2);
+        bd.height();
+
 
 
     }
